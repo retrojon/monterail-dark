@@ -10,7 +10,7 @@
 #folderTree>treechildren::-moz-tree-image(folderNameCol, specialFolder-Inbox),
 #folderTree>treechildren::-moz-tree-image(folderNameCol, specialFolder-Inbox, open) {
     list-style-image: url("chrome:../inbox.svg");
-    fill: #fff;
+    fill: #4D4D4D;
 }
 
 .tabmail-tabs>.tabmail-tab[type="folder"][SpecialFolder="Inbox"][selected="true"] {
@@ -27,7 +27,7 @@
 #folderTree>treechildren::-moz-tree-image(folderNameCol, specialFolder-Sent),
 #folderTree>treechildren::-moz-tree-image(folderNameCol, specialFolder-Sent, open) {
     list-style-image: url("chrome:../sent.svg");
-    fill: #b2f2ff;
+    fill: #4d4d4d;
 }
 
 /* Unsent */
@@ -50,7 +50,7 @@
 #folderTree>treechildren::-moz-tree-image(folderNameCol, specialFolder-Drafts),
 #folderTree>treechildren::-moz-tree-image(folderNameCol, specialFolder-Drafts, open) {
     list-style-image: url("chrome:../draft.svg");
-    fill: #b8e986;
+    fill: #4d4d4d;
 }
 
 /* Templates */
@@ -58,7 +58,7 @@
 .tabmail-tabs>.tabmail-tab[type="folder"][SpecialFolder="Templates"],
 #folderTree>treechildren::-moz-tree-image(folderNameCol, specialFolder-Templates) {
     list-style-image: url("chrome:../template.svg");
-    fill: #fff;
+    fill: #4d4d4d;
 }
 
 /* Mail server */
@@ -81,7 +81,7 @@ treechildren::-moz-tree-image(folderNameCol, isServer-true) {
 #folderTree>treechildren::-moz-tree-image(folderNameCol, specialFolder-Junk),
 #folderTree>treechildren::-moz-tree-image(folderNameCol, specialFolder-Junk, open) {
     list-style-image: url("chrome:../flame_junk.svg");
-    fill: #fff;
+    fill: #4D4D4D;
 }
 
 /* Trash */
@@ -120,7 +120,7 @@ treechildren::-moz-tree-image(folderNameCol, isServer-true) {
 #folderTree>treechildren::-moz-tree-image(folderNameCol, isFeed-true),
 #folderTree>treechildren::-moz-tree-image(folderNameCol, isFeedFolder-true) {
     list-style-image: url("chrome:../rss.svg");
-    fill: #fff;
+    fill: #4D4D4D;
 }
 
 #folderTree>treechildren::-moz-tree-image(folderNameCol, serverIsPaused),
@@ -150,7 +150,7 @@ specialFolder-Inbox, newMessages-true) {
 }
 
 #folderTree>treechildren:not(.autocomplete-treebody)::-moz-tree-cell-text(closed, subfoldersHaveUnreadMessages-true) {
-    color: #fff;
+    color: #000;
     font-weight: bold;
 }
 
@@ -180,7 +180,7 @@ specialFolder-Inbox, newMessages-true) {
     padding-inline-end: 5px;
     padding-top: 1px;
     width: 9px;
-    fill: #fff;
+    fill: #4D4D4D;
     list-style-image: url("chrome:../twisty.svg") !important;
 }
 

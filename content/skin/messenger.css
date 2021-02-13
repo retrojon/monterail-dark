@@ -20,12 +20,12 @@
 
 #messengerWindow>#navigation-toolbox:not(:-moz-window-inactive) {
     color: #fff !important;
-    background-color: var(--background-color) !important;
+    background-color: #3C3B37 !important;
 }
 
 #messengerWindow>#navigation-toolbox:-moz-window-inactive {
     color: #ddd !important;
-    background-color: var(--background-color-inactive) !important;
+    background-color: #3C3B37 !important;
 }
 
 #menubar-items>#mail-menubar>menu {
@@ -49,7 +49,7 @@
 .contentTabToolbox {
     box-shadow: none;
     background-image: none;
-    background-color: var(--background-color-light);
+     background-color: #F7F7F6 ;
     color: var(--message-list-text-color);
 }
 
@@ -194,14 +194,16 @@ toolbar[brighttext]>.toolbarbutton-1 {
 }
 
 #threadTree>treechildren:not(.autocomplete-treebody)::-moz-tree-cell-text(selected),
-#threadTree>treechildren:not(.autocomplete-treebody)::-moz-tree-cell-text(selected, focus),
-#folderTree>treechildren:not(.autocomplete-treebody)::-moz-tree-cell-text,
+#threadTree>treechildren:not(.autocomplete-treebody)::-moz-tree-cell-text(selected, focus)  {
+ color: #FFFFFF !important;
+}
+#folderTree>treechildren:not(.autocomplete-treebody)::-moz-tree-cell-text
 #folderTree>treechildren:not(.autocomplete-treebody)::-moz-tree-cell-text(selected, focus),
 .calendar-task-tree>treechildren:not(.autocomplete-treebody)::-moz-tree-cell-text(selected), 
 .calendar-task-tree>treechildren:not(.autocomplete-treebody)::-moz-tree-cell-text(selected, focus), 
-#unifinder-search-results-tree>treechildren:not(.autocomplete-treebody)::-moz-tree-cell-text(selected), 
+#unifinder-search-results-tree>treechildren:not(.autocomplete-treebody)::-moz-tree-cell-text(selected)
 #unifinder-search-results-tree>treechildren:not(.autocomplete-treebody)::-moz-tree-cell-text(selected, focus) {
-    color: #fff !important;
+    color: #4D4D4D !important;
 }
 
 #rssSubscriptionsList>treechildren::-moz-tree-image,
@@ -287,6 +289,7 @@ treechildren:-moz-tree-twisty {
     padding: 3px !important;
     border-left: 1px solid rgba(127, 127, 127, 0.4) !important;
     min-width: 21px !important;
+	  background-color: #F2F1F0 !important;
 }
 
 #threadPane {

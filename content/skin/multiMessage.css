@@ -2,7 +2,7 @@
 @import url(chrome://MonterailOverlay/content/skin/root.css);
 
 #heading_wrapper {
-  color: #fff;
+  color: #000;
   background-color: var(--background-color);
 }
 
