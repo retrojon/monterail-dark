@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Monterail Light",
-  "description": "Monterail Light, Spin-off Thunderbird theme forked from conema/Monterail Dark",
+  "description": "Spin-off Thunderbird theme forked from conema/Monterail Dark",
   "version": "3.2.1",
   "author": "Emanuele Concas",
   "homepage_url": "https://addons.thunderbird.net/en-US/thunderbird/addon/monterail-dark/",
