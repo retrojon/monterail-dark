@@ -9,7 +9,7 @@ WIP.
 ## Screenshots
 
 Light:
-![alt text](https://raw.githubusercontent.com//retrojon/monterail-light/blob/master/Monterail-Light.png)
+![screen1](https://github.com/retrojon/monterail-light/blob/master/Monterail-Light.png)
 
 ----------------------------------------------------------------------------------
 Author:
